@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //array methods
+        //1)lenth
+        let a1 = ["html", "css", "js", "boostrap", "react"];
+        document.write(a1.length);
+        document.write("<br>");
+        //2)join
+        let a2 = ["html", "css", "js", "boostrap", "react"];
+        document.write(a2.join("*"));
+        document.write("<br>");
+        //3)push
+        let a3 = ["html", "css", "js", "boostrap", "react"];
+        document.write(a3.push("php"));
+        document.write("<br>");
+        document.write(a3);
+        document.write("<br>");
+        //4)pop
+        let a4 = ["html", "css", "js", "boostrap", "react"];
+        document.write(a4.pop());
+        document.write("<br>");
+        document.write(a4);
+        document.write("<br>");
+        //5)unshift
+        let a5 = ["html", "css", "js", "boostrap", "react"];
+        document.write(a5.unshift("php"));
+        document.write("<br>");
+        document.write(a5);
+        document.write("<br>");
+        //6)shift
+        let a6 = ["html", "css", "js", "boostrap", "react"];
+        document.write(a6.shift());
+        document.write("<br>");
+        document.write(a6);
+        document.write("<br>");
+        //7)concat
+        let a7 =[20,30];
+        let a8 =[40,50];
+        document.write(a7.concat(a8));
+        document.write("<br>");
+        //8)reverse
+        let a9 = [5,8,3,9,4,1];
+        document.write(a9.reverse());
+        document.write("<br>");
+        //9)fill
+        let b1 = ["html", "css", "js", "boostrap", "react"];
+        document.write(b1.fill("php",1,3));
+        document.write("<br>");
+        //10)sort
+        let b2 = [5,4,1,3,2];
+        document.write(b2.sort());
+        document.write("<br>");
+        //11)indexoff
+        let b3 = [5,4,1,3,2];
+        document.write(b3.indexOf(3));
+        document.write("<br>");
+        //12)tostring
+        let b4 = ["html", "css", "js", "boostrap", "react"];
+        document.write(b4.toString());
+        document.write("<br>");
+        //replace
+        let b5 = "tejas,rutvi,rutvi,rutik";
+        document.write(b5.replaceAll("rutvi","rutu"));
+        document.write("<br>");
+    </script>
+</body>
+
+</html>
